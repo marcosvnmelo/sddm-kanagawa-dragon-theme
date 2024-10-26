@@ -166,7 +166,7 @@ Item {
 
                         anchors.fill: powerIcon
                         source: powerIcon
-                        color: config.PopupColor
+                        color: config.PopupActiveTextColor
                     }
 
                     Text {
@@ -181,7 +181,7 @@ Item {
                         anchors.centerIn: parent
                         renderType: Text.NativeRendering
                         horizontalAlignment: Text.AlignHCenter
-                        color: config.PopupColor
+                        color: config.PopupActiveTextColor
                         text: name
                         opacity: 0
                     }
