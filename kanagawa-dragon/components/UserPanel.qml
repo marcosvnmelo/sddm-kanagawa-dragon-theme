@@ -273,7 +273,7 @@ Column {
                 renderType: Text.NativeRendering
                 horizontalAlignment: Text.AlignHCenter
                 verticalAlignment: Text.AlignVCenter
-                color: config.PopupActiveColor
+                color: config.PopupActiveTextColor
                 text: "Incorrect username\nor password!"
             }
 
